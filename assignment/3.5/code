@@ -1,1 +1,40 @@
+#include <stdio.h>
 
+main() {
+	int i , j , k;
+	int l = 0;
+	int score[10];
+	
+	printf("\nInput number of element to be store in array = ");
+	scanf("%d" , &l);
+	
+		for(i = 0 ; i < l ; i++){
+		
+			printf("\nElement[%d] = ",i+1);
+			scanf("%d" , &score[i]);
+	}
+		printf("------\n");
+	
+	  	for ( i = 0 ; i < l ; i++){
+		
+		 k = 1;
+			for(j = i + 1 ; j < = l ; j++){
+            	
+				if(score[i] == score[j] ){
+					
+					k++;
+                
+				score[j] = 0;
+            }
+        }
+        
+      	if(score[i] != 0){
+            
+			printf("%d -> %d\n", score[i] , k);
+
+        }
+	}
+		printf("------\n");
+		
+		return 0;
+}
