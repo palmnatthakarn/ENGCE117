@@ -1,5 +1,5 @@
 //นางสาวณัฐกานต์ แก้วสามต่อ 65543206010-2 sce1
-//https://youtu.be/5qJQ1-jhMVc
+//https://youtu.be/t3wrJDetBo8
 #include <stdio.h>
 #include <string.h>
 
