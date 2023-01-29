@@ -1,3 +1,5 @@
+//นางสาวณัฐกานต์ แก้วสามต่อ 65543206010-2 sce1
+//https://youtu.be/HFEArR8uqiQ
 #include <stdio.h>
 #include <string.h>
 
